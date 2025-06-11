@@ -7,20 +7,20 @@ public class ContaCorrente {
         saldo = saldoConta;
     }
 
+    void setNumero(String numero){ // serve para atribuir o valor da variavel
+        this.numero = numero;
+    }
+
     String getNumero(){
         return numero;
     }
 
-    void setNumero(String numero){ // serve para modificar o valor da variavel
-        this.numero = numero;
+    void setSaldo(double saldo){
+        this.saldo = saldo;
     }
 
     double getSaldo(){
         return saldo;
-    }
-
-    void setSaldo(double saldo){
-        this.saldo = saldo;
     }
 
     void creditar(double valor){

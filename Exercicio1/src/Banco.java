@@ -8,6 +8,9 @@ public class Banco {
      System.out.println(c1.getSaldo());
 
      c2.creditar(20);
-     System.out.println(c2.getSaldo());
+     System.out.println(c2.getSaldo()+" e o numero é: " +c2.getNumero());
+
+     c2.setNumero("10");
+     System.out.println(c2.getSaldo()+" e o numero é: " +c2.getNumero());
     }
 }
